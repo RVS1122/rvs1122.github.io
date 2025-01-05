@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
+  <title>Blog | V S Rahul</title>
+  <meta name="description" content="Blog by V S Rahul, sharing insights on ethical hacking, web development, and cybersecurity.">
+  <meta name="keywords" content="blog, ethical hacking, cybersecurity, web development">
+  <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    /* Back Button Styling */
+    .back-button {
+      text-align: left;
+      margin: 20px;
+    }
+
+    .back-button a {
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 20px;
+      background-color: grey;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .back-button a:hover {
+      background-color: red;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ***** Back Button ***** -->
+  <div class="back-button">
+    <a href="index.html">Back</a>
+  </div>
+
+  <!-- ***** Blog Content ***** -->
+  <main role="main">
+    <section class="blog" id="blog">
+      <div class="row">
+        <article class="blog__post">
+          <h2 class="blog__title">Subdomain Finder Tool: A Comprehensive Walkthrough</h2>
+          <p class="blog__date">Published on: January 5, 2025</p>
+          <img src="./images/banner.png" width="75%" alt=""><br><br>
+          <h3>Introduction</h3>
+          <div class="blog__content">
+            <p> The Subdomain Finder tool is a powerful utility designed to automate the discovery of subdomains for a given domain. Subdomains often house hidden or less-secured applications, making them critical in penetration testing and vulnerability assessment workflows. This tool streamlines reconnaissance by identifying subdomains and filtering active ones, saving time and effort while ensuring precision. </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="row">
+        <div class="blog__content">
+          <ul><h3>Applications of the Subdomain Finder Tool</h3>
+            <li>Penetration Testing: Identify potential entry points in a domain by uncovering subdomains hosting applications or services. </li>
+            <li>Bug Bounty Programs: Discover subdomains in scope for bug bounty hunting to expand testing coverage. </li>
+            <li>Incident Response: Locate forgotten or deprecated subdomains that might be targeted in attacks. </li>
+            <li>Security Audits: Map the attack surface for thorough assessments of an organization’s online infrastructure. </li>
+            <li>Red Team Operations: Use subdomains as potential weak points for lateral movement in simulated attacks. </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="row">
+        <div class="blog__content">
+          <ul><h3>Key Features</h3>
+            <li>Automates subdomain enumeration using `assetfinder`. </li>
+            <li>Filters live subdomains with `httprobe` to ensure accuracy. </li>
+            <li>Generates a clean, de-duplicated list of active subdomains. </li>
+            <li>Provides user-friendly prompts for seamless interaction. </li>
+            <li>Cleans up temporary files to maintain a tidy workspace. </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="row">
+        <div class="blog__content">
+          <ul><h3>Step-by-Step Guide with Example:</h3><br>
+            <li><h3 style="font-size: 25px;">1. Setup and Requirements</h3>
+              Ensure your system has assetfinder and httprobe installed. If not, the script automatically installs them during execution.
+              Example Setup: Git clone the repository "https://github.com/RVS1122/subdomain" , navigate into it and grant execution permissions:
+              <br><br>$ git clone https://github.com/RVS1122/subdomain <br>
+              $ cd subdomain <br>
+              $ chmod +x fun.sh <br>
+            </li>
+          </ul><br>
+          <ul><li><h3 style="font-size: 25px;">2. Running the Tool</h3>
+            Execute the script and provide the target domain when prompted: <br><br>
+            $ ./fun.sh
+            When prompted, input the domain you wish to scan (e.g., `synnefo.in`). </li><br>
+            Screenshot: <br>
+            <img src="./images/scan.png" width="75%"> </li>
+          </ul><br>
+
+          <ul><li><h3 style="font-size: 25px;">3. Scanning Process</h3></li>
+            <li>Generates potential subdomains using assetfinder.</li>
+            <li>Filters active subdomains using httprobe.</li>
+            <li>Display results in the terminal.</li>
+          </ul>
+
+          </ul><br>
+          <ul><li><h3 style="font-size: 25px;">4. Output</h3>
+            The final output is a list of live subdomains displayed in the terminal:
+            <br><br></li><br>
+            Screenshot: <br>
+            <img src="./images/result.png" width="75%" alt=""></li>
+          </ul><br>
+
+          </ul><br>
+          <ul><li><h3 style="font-size: 25px;">Conclusion</h3>
+            The Subdomain Finder tool is an indispensable utility for cybersecurity professionals, streamlining the critical process of subdomain enumeration. Whether you are conducting a penetration test, bug bounty hunt, or security audit, this tool ensures you have a reliable starting point to uncover potential vulnerabilities.
+            Try it now! Empower your reconnaissance with the Subdomain Finder tool. </li><br>
+          </ul><br>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Footer ***** -->
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <p>&copy; 2025 - Blog by V S Rahul.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
