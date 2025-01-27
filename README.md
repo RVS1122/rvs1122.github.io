@@ -45,18 +45,6 @@ A Python-based tool that automates scanning for common vulnerabilities across we
   - Detects OWASP Top 10 vulnerabilities
   - Generates detailed reports
 
-### [2. Capture The Flag (CTF) Challenges](https://github.com/YourUsername/ctf-solutions)
-A repository of my solutions for various CTF competitions and challenges.
-- **Includes:**
-  - Web exploitation
-  - Reverse engineering
-  - Binary exploitation
-
-### [3. Incident Response Toolkit](https://github.com/YourUsername/incident-response-toolkit)
-A suite of scripts to assist with incident detection and response tasks.
-- **Features:**
-  - Log file analysis
-  - Memory dump examination
 
 ---
 
