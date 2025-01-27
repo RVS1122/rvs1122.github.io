@@ -43,7 +43,7 @@ As an ethical hacker, I strive to improve cybersecurity by identifying vulnerabi
 A Python-based tool that automates scanning for common vulnerabilities across web applications and servers.
 - **Features:**
   - Detects OWASP Top 10 vulnerabilities
-  - Generates detailed reports
+  - Generates detailed reports.
 
 
 ---
