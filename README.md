@@ -22,9 +22,6 @@ As an ethical hacker, I strive to improve cybersecurity by identifying vulnerabi
 - **Penetration Testing:** Kali Linux, Metasploit, Burp Suite, Nmap, Wireshark
 - **Web Security:** OWASP Top 10, SQL Injection, Cross-Site Scripting (XSS), CSRF
 - **Programming Languages:** Python, Bash, JavaScript
-- **Digital Forensics:** Autopsy, FTK Imager, Volatility
-- **Cloud Security:** AWS, Azure Security, Google Cloud
-- **Version Control:** Git, GitHub
 
 ### Soft Skills
 - Analytical thinking
@@ -37,11 +34,7 @@ As an ethical hacker, I strive to improve cybersecurity by identifying vulnerabi
 ## 📜 Certifications
 
 - Certified Ethical Hacker (CEH) 
-- Offensive Security Certified Professional (OSCP) 
-- CompTIA Security+ 
-- GIAC Penetration Tester (GPEN) 
-- AWS Certified Security – Specialty
-
+- 
 ---
 
 ## 🔧 Projects
