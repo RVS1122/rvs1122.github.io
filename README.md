@@ -34,7 +34,7 @@ As an ethical hacker, I strive to improve cybersecurity by identifying vulnerabi
 ## 📜 Certifications
 
 - Certified Ethical Hacker (CEH) 
-- 
+
 ---
 
 ## 🔧 Projects
